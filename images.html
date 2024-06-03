@@ -115,11 +115,11 @@
       <div class="row">
         <!-- START: inst/pkgdown/templates/navbar.html -->
 <div id="sidebar-col" class="col-lg-4">
-    <div id="sidebar" class="sidebar">
-        <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle" data-collapse="Collapse " data-episodes="Episodes ">
+    <div id="sidebar" class="sidebar" style="display: flex">
+        <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle sticky-top" data-collapse="Collapse " data-episodes="Episodes ">
                 <i class="search-icon" data-feather="x" role="img"></i>
             </button>
-            <div class="sidebar-inner">
+            <div class="sidebar-inner sticky-top">
                 <div class="row mobile-row">
                     <div class="col">
                         <div class="sidenav-view-selector">
@@ -175,30 +175,6 @@
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
         <a href="introduction.html">1. introduction</a>
-    </div>
-<!--/div.accordion-header-->
-        
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush3">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading3">
-        <a href="not-yet-released.html">2. Not yet released</a>
-    </div>
-<!--/div.accordion-header-->
-        
-  </div>
-<!--/div.accordion-item-->
-</div>
-<!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush4">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading4">
-        <a href="not-yet-released-2.html">3. Also not yet released</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -268,26 +244,6 @@ Sun arise each and every morning
 <h3 id="introduction-figure-2">Figure 2</h3>
 <p aria-hidden="true">Image 1 of 1: ‘Blue Carpentries hex person logo with no text.’</p>
 <figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><hr></section><section id="not-yet-released"><h2 class="section-heading"><a href="not-yet-released.html">Not yet released</a></h2>
-<hr class="half-width">
-<h3 id="not-yet-released-figure-1">Figure 1</h3>
-<p aria-hidden="true">Image 1 of 1: ‘pie chart illusion of a pyramid’</p>
-<figure style="text-align: center"><img src="fig/not-yet-released-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid" class="figure mx-auto d-block"><figcaption>
-Sun arise each and every morning
-</figcaption></figure><hr>
-<h3 id="not-yet-released-figure-2">Figure 2</h3>
-<p aria-hidden="true">Image 1 of 1: ‘Blue Carpentries hex person logo with no text.’</p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><hr></section><section id="not-yet-released-2"><h2 class="section-heading"><a href="not-yet-released-2.html">Also not yet released</a></h2>
-<hr class="half-width">
-<h3 id="not-yet-released-2-figure-1">Figure 1</h3>
-<p aria-hidden="true">Image 1 of 1: ‘pie chart illusion of a pyramid’</p>
-<figure style="text-align: center"><img src="fig/not-yet-released-2-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid" class="figure mx-auto d-block"><figcaption>
-Sun arise each and every morning
-</figcaption></figure><hr>
-<h3 id="not-yet-released-2-figure-2">Figure 2</h3>
-<p aria-hidden="true">Image 1 of 1: ‘Blue Carpentries hex person logo with no text.’</p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
 </figure><hr></section>
 </div>
     </main>
@@ -299,7 +255,7 @@ Sun arise each and every morning
       		<footer class="row footer mx-md-3"><hr>
 <div class="col-md-6">
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/LearnToDiscover/sandpaper/tree/milanmlft/single-episode-pdfs" class="external-link">sandpaper (0.16.4)</a>, <a href="https://github.com/carpentries/pegboard/tree/a32a7836d4455f407c3cafe8ab95edc636e5e919" class="external-link">pegboard (0.7.5)</a>, and <a href="https://github.com/LearnToDiscover/varnish/tree/milanmlft/single-episode-pdfs" class="external-link">varnish (1.0.3.9000.1)</a></p>
+        <p>Built with <a href="https://github.com/LearnToDiscover/sandpaper/tree/milanmlft/scheduled-releases" class="external-link">sandpaper (0.16.4.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/a32a7836d4455f407c3cafe8ab95edc636e5e919" class="external-link">pegboard (0.7.5)</a>, and <a href="https://github.com/LearnToDiscover/varnish/tree/f7d007c3bca520f3a092961608184a469bb65855" class="external-link">varnish (1.0.3.9000.1)</a></p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -322,8 +278,8 @@ Sun arise each and every morning
   "url": "https://milanmlft.github.io/sandpaper-test/images.html",
   "identifier": "https://milanmlft.github.io/sandpaper-test/images.html",
   "dateCreated": "2024-05-24",
-  "dateModified": "2024-05-31",
-  "datePublished": "2024-05-31"
+  "dateModified": "2024-06-03",
+  "datePublished": "2024-06-03"
 }
 
   </script><script>

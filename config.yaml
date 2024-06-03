@@ -84,8 +84,8 @@ profiles:
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
-varnish: LearnToDiscover/varnish@milanmlft/single-episode-pdfs
-sandpaper: LearnToDiscover/sandpaper@milanmlft/single-episode-pdfs
+varnish: LearnToDiscover/varnish
+sandpaper: LearnToDiscover/sandpaper@milanmlft/scheduled-releases
 releases:
     "2024-05-01": introduction.Rmd
     "2025-05-01":
